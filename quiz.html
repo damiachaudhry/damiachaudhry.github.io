@@ -1,0 +1,254 @@
+<html>
+    <head>
+        <title>
+            QUIZ
+        </title>
+    </head>
+    <style>
+        .ans input{
+            display: inline-block;
+        }
+        .ans{
+            font-size:x-large;
+            font-weight: bold;
+            font-family:copper ;
+        }
+        .mcq li{
+            font-size:xx-large;
+            font-weight: bold;
+            font-family:copper ;
+            padding: 20px;
+        }
+        div{
+           background-color: mediumspringgreen;
+            margin: 20px;
+        }
+        div.menu-bar ul li{
+            display:inline-block     ;
+            padding: 10px;
+        } 
+        div.menu-bar ul li a{
+          color: snow;
+          font-family: cooper;
+          font-size:  xx-large;  
+        } 
+        div.menu-bar ul li a:hover{
+            color:rgb(154, 230, 32);
+        }   
+        div.menu-bar{
+            background-color: coral;
+            padding-left:30px ;
+            padding-right: 30px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            
+        }
+    </style>
+    <body style="background-image: url(images/bg1.jpg);">
+        <div class="menu-bar">
+            <ul>
+                <li><a href="home.html"> Home</a></li>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul></div>
+        <form><div>
+            <h2>Tick the correct answer.</h2>
+            <ol class="mcq">
+                <li>
+                    The first calculating device was ______________?
+                </li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="A"> a. Napier's Bones
+                    <input type="radio" name="A"> b. Abacus
+                    <input type="radio" name="A"> c. Pascaline
+                </ol>
+                <li>Which calculating device was developed by Gottfried Wilhelm von Leibniz?</li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="B"> a. Step Reckoner
+                    <input type="radio" name="B"> b. Mark I
+                    <input type="radio" name="B"> c. Pascaline
+                </ol>
+                <li>______________ is known as the 'Father of Computer.'</li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="C"> a. Charles Babbage
+                    <input type="radio" name="C"> b. Herman Hollerith
+                    <input type="radio" name="C"> c. Blaise Pascal
+                </ol><li>The PC-AT was introduced in _____________.</li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="D"> a. 1894
+                    <input type="radio" name="D"> b. 1984 
+                    <input type="radio" name="D"> c. 1994
+                </ol><li>The second generation computers used ____________.</li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="E"> a. Transistors
+                    <input type="radio" name="E"> b. Vacuum tube 
+                    <input type="radio" name="E"> c. IC
+                </ol><li>The _____________ generation computers are based on artificial intelligence.</li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="F"> a. First
+                    <input type="radio" name="F"> b. Third 
+                    <input type="radio" name="F"> c. Fifth
+                </ol>
+            </ol>
+        </div>
+        <div>
+            <h2>True/False</h2>
+            <ol class="mcq">
+                <li>
+                    Early man used to count with the help of stones, fingers ,etc.
+                </li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="G">  True
+                    <input type="radio" name="G">  False
+                </ol>
+                <li> 
+                    Herman Holllerith invented "Tabulating Machine" in 1990.
+                </li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="H">  True
+                    <input type="radio" name="H"> False
+                </ol>
+                <li>
+                    Mark 1 was the first electro-mechanical computer.
+                </li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="I">  True
+                    <input type="radio" name="I">  False
+                </ol><li>
+                    The First Generation computersdid not produce a lot of heat.
+                </li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="J">  True
+                    <input type="radio" name="J">  False
+                </ol><li>
+                    The Third Generation of computers used vacuum tubes.
+                </li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="K">  True
+                    <input type="radio" name="K">  False
+                </ol><li>
+                    Integrated circuit was used in the Fourth Generation of computers. 
+                </li>
+                <ol type="a" class="ans">
+                    <input type="radio" name="L">  True
+                    <input type="radio" name="L">  False
+                </ol>
+            </ol>
+        </div>
+        <div>
+            <h2>Fill in the blanks.</h2>
+            <ol class="mcq">
+                <li>
+                    Abacus was invented by<input type="text" name="M">.
+                </li>
+                <li>  <input type="text" name="N"> was invented by Blaise Pascal.</li>
+
+                <li><input type="text" name="O"> invented 'Difference Engine' and 'Analytical Engine'.</li>
+                <li>The Second generation computers used <input type="text" name="P"> language.</li>
+                <li><input type="text" name="Q">and <input type="text" name="R"> are the examples of First generation computers.</li>
+               <li>The Transistors were replace by <input type="text" name="S">in the Third generation computers.</li>
+                
+                <li>The <input type="text" name="T"> generation computers use microprocessor.</li>
+                <li>The goal of Fifth generation is to develop the computers that can responed to <input type="text" name="U">.</li>
+            </ol>
+        </div>
+        <center><input type="button" value="Submit" onclick="mark(this.form)" style="height: 70px;width: 170px;
+        background-color: rgb(183, 247, 88);
+        font-family: cooper;border: solid 5px;font-size: x-large;"></center><br>
+        <center><input type="button" name="result" style="height: 70px;width: 250px;
+        background-color: rgb(8, 216, 164);
+        font-family: cooper;border: solid 5px;font-size: x-large;"></center>
+    </form>
+    <script lang="javascript">
+        function mark(f)
+        {
+            var score=0;
+            if(f.A[1].checked)
+            {
+                score+=1;
+            }
+            if(f.B[0].checked)
+            {
+                score+=1;
+            }
+            if(f.C[0].checked)
+            {
+                score+=1;
+            }
+            if(f.D[1].checked)
+            {
+                score+=1;
+            }
+            if(f.E[0].checked)
+            {
+                score+=1;
+            }
+            if(f.F[2].checked)
+            {
+                score+=1;
+            }
+            if(f.G[0].checked)
+            {
+                score+=1;
+            }
+            if(f.H[1].checked)
+            {
+                score+=1;
+            }
+            if(f.I[0].checked)
+            {
+                score+=1;
+            }
+            if(f.J[1].checked)
+            {
+                score+=1;
+            }
+            if(f.K[1].checked)
+            {
+                score+=1;
+            }
+            if(f.L[1].checked)
+            {
+                score+=1;
+            }
+            if(f.M.value.toLowerCase()=="chinese" )
+            {
+                score+=1;
+            }
+            if(f.N.value.toLowerCase()=="pascaline")
+            {
+                score+=1;
+            }
+            if(f.R.value.toLowerCase()=="eniac" || f.R.value.toLowerCase()=="univac")
+            {
+                score+=1;
+            }
+            if(f.Q.value.toLowerCase()=="eniac" || f.Q.value.toLowerCase()=="univac")
+            {
+                score+=1;
+            }
+            if(f.O.value.toLowerCase()=="charles babbage")
+            {
+                score+=1;
+            }
+            if(f.P.value.toLowerCase()=="assembly")
+            {
+                score+=1;
+            }
+            if(f.S.value.toLowerCase()=="integrated circuits")
+            {
+                score+=1;
+            }
+            if(f.T.value.toLowerCase()=="fourth")
+            {
+                score+=1;
+            }
+            if(f.U.value.toLowerCase()=="natural language")
+            {
+                score+=1;
+            }
+            f.result.value="Your score is "+ score;
+        }
+    </script>
+    </body>
+</html>
